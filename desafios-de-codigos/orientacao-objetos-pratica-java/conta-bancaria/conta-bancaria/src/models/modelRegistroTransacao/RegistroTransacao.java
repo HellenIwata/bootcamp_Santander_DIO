@@ -1,4 +1,4 @@
-package models.registroTransacao;
+package models.modelRegistroTransacao;
 
 import java.util.ArrayList;
 import java.util.List;

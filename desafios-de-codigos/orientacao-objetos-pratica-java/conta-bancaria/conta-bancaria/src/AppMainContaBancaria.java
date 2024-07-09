@@ -1,4 +1,4 @@
-import models.registroTransacao.RegistroTransacao;
+import models.modelRegistroTransacao.RegistroTransacao;
 
 public class AppMainContaBancaria {
     

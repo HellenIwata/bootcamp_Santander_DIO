@@ -1,4 +1,4 @@
-package models.registroTransacao;
+package models.modelRegistroTransacao;
 
 public class Transacao {
     private char tipo;
