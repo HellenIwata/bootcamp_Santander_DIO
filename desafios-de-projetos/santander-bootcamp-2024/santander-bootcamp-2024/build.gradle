@@ -22,13 +22,22 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0' //localhost:8080/swagger-ui.html
 	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+	implementation 'org.postgresql:postgresql'
+
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'com.h2database:h2'
+
+	//runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
-
+// Modificando para subir o arquivo na cloud
+tasks.jar{
+	manifest{
+		attributes['Main-Class'] ='me.dio.springboot.Application'
+	}
+}
 tasks.named('test') {
 	useJUnitPlatform()
 }
