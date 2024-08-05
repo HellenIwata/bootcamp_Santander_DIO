@@ -1,6 +1,6 @@
 # Santander Bootcamp 2024 - Backend Java
 
-RESTful API para para gerenciamento de restaurantes, cardápios e itens, desenvolvido durante o bootcamp disponibilizado pelo [Santander](https://www.santanderopenacademy.com) e [DIO](https://web.dio.me) em Java 17 e Spring Boot 3.
+Restful API para para gerenciamento de restaurantes, cardápios e itens, desenvolvido durante o bootcamp disponibilizado pelo [Santander](https://www.santanderopenacademy.com) e [DIO](https://web.dio.me) em Java 17 e Spring Boot 3.
 
 ## Principais Tecnologias
 
